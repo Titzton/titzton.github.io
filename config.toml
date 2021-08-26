@@ -1,13 +1,13 @@
 baseURL = "https://titzton.github.io/"
 languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"
-title = "Titzton's Note | 在名為人生的MMORPG遊戲裡，擔任一名煉金術士。"
+title = "Titzton's Note | 試圖攻略理想未來的筆記"
 theme = "tranquilpeak"
 
 # 作者資訊
 [author]
     name = "Titzton"
-    bio = "逐漸往 Machine Learning 之路邁進的大四生，繼續在路途中亂點技能樹的我，把這些過程記錄下來後貌似可以領悟出些甚麼。"
+    bio = "在亂點技能樹的前提下，逐漸往 Machine Learning 之路邁進的大四生。仍探索著攻略理想未來的方法是否搞錯了些甚麼。"
     job = "BS Student, Ling Tung University ITEC"
     location = "Changhua County, Taiwan"
     picture = "/images/author/author.jpg"
@@ -72,7 +72,7 @@ theme = "tranquilpeak"
     # 關鍵字
     keywords = ["MachineLearning", "GIS", "backend", "technology"]
     # 網站描述
-    description = "乘載著一名大四生的未來憧憬，在正式步入社會之前努力堆肥的所有歷程。"
+    description = "在名為人生的MMORPG遊戲裡，扮演著自稱勇者的煉金術士，並記錄著他的冒險歷程。"
     # 特殊字 High light
     syntaxHighlighter = "prism.js"
     # 文章隱藏 Side bar
