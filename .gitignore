@@ -1,0 +1,28 @@
+# https://github.com/gohugoio/hugo/blob/master/.gitignore
+/public
+/hugo
+docs/public*
+/.idea
+hugo.exe
+*.test
+*.prof
+nohup.out
+cover.out
+*.swp
+*.swo
+.DS_Store
+*~
+vendor/*/
+*.bench
+*.debug
+coverage*.out
+
+dock.sh
+
+GoBuilds
+dist
+
+vendor
+
+# Temp storage
+/temp

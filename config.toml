@@ -1,0 +1,108 @@
+baseURL = "https://titzton.github.io/"
+languageCode = "zh-tw"
+defaultContentLanguage = "zh-tw"
+title = "Titzton's Note | 在人生這款MMORPG遊戲裡，擔任一名煉金術士。"
+theme = "tranquilpeak"
+
+# 作者資訊
+[author]
+    name = "Titzton"
+    bio = "逐漸往 Machine Learning 之路邁進的大四生，繼續在路途中亂點技能樹的我，把這些過程記錄下來後貌似可以領悟出些甚麼。"
+    job = "BS Student, LTU"
+    location = "Changhua, Taiwan"
+    picture = "/images/author/author.jpg"
+    email = "titzton@gmail.com"
+
+# 連結格式
+[permalinks]
+    post = "/:year/:month/:filename/"
+
+# 產生分類頁面
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    archive = "archives"
+
+# SideBar 設定
+[[menu.main]]
+    weight = 1
+    identifier = "archives"
+    name = "Archives"
+    pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+    url = "/archives"
+[[menu.main]]
+    weight = 2
+    identifier = "categories"
+    name = "Categories"
+    pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+    url = "/categories"
+[[menu.main]]
+    weight = 3
+    identifier = "tags"
+    name = "Tags"
+    pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+    url = "/tags"
+[[menu.main]]
+    weight = 4
+    identifier = "about"
+    name = "About"
+    pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+    url = "/#about"
+[[menu.main]]
+    weight = 5
+    identifier = "home"
+    name = "Home"
+    pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+    url = "/"
+
+# 連結設定
+[[menu.links]]
+  weight = 0
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/titzton"
+
+# 參數設定
+[params]
+    # 日期格式
+    dateFormat = "2006/01/02"
+    # 網站縮圖
+    favicon = "/images/sites//web_icon.png"
+    # 關鍵字
+    keywords = ["MachineLearning", "GIS", "backend", "technology"]
+    # 網站描述
+    description = "乘載著一名大四生的未來憧憬，在正式步入社會之前努力堆肥的所有歷程。"
+    # 特殊字 High light
+    syntaxHighlighter = "prism.js"
+    # 文章隱藏 Side bar
+    clearReading = true
+    # 階層式標籤分類 (是否依據順序代表階層)
+    hierarchicalCategories = false
+    # 側邊攔顯示模式
+    sidebarBehavior = 1
+    # 封面照
+    coverImage = "/images/sites/cover.jpg"
+    # 啟用相片廊 (特定標記的圖片會在文末用畫廊的方式顯示)
+    imageGallery = true
+    # 文章縮圖設定 (啟用/縮圖擺放位置/是否自動使用第一張圖片或封面作為縮圖)
+    thumbnailImage = true
+    thumbnailImagePosition = "right"
+    autoThumbnailImage = false
+    # 社群分享
+    [[params.sharingOptions]]
+        name = "Facebook"
+        icon = "fa-facebook-official"
+        url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+
+    [[params.sharingOptions]]
+        name = "Twitter"
+        icon = "fa-twitter"
+        url = "https://twitter.com/intent/tweet?text=%s"
+    # Footer 作者版權宣告的連結
+    [params.footer]
+        copyright = "<a href=\"https://github.com/titzton\">Titzton</a>"
+
+# 避免阻擋原始 Html 標籤
+[markup.goldmark.renderer]
+    unsafe= true
