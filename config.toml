@@ -1,15 +1,15 @@
 baseURL = "https://titzton.github.io/"
 languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"
-title = "Titzton's Note | 在人生這款MMORPG遊戲裡，擔任一名煉金術士。"
+title = "Titzton's Note | 在名為人生的MMORPG遊戲裡，擔任一名煉金術士。"
 theme = "tranquilpeak"
 
 # 作者資訊
 [author]
     name = "Titzton"
     bio = "逐漸往 Machine Learning 之路邁進的大四生，繼續在路途中亂點技能樹的我，把這些過程記錄下來後貌似可以領悟出些甚麼。"
-    job = "BS Student, LTU"
-    location = "Changhua, Taiwan"
+    job = "BS Student, Ling Tung University ITEC"
+    location = "Changhua County, Taiwan"
     picture = "/images/author/author.jpg"
     email = "titzton@gmail.com"
 
